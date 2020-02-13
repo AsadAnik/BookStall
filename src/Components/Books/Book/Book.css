@@ -1,0 +1,13 @@
+i.fa-trash, i.fa-edit{
+    cursor: pointer;
+    color: gray;
+    transition: 0.5s;
+}
+i.fa-trash:hover{
+    color: red;
+    transform: rotate(360deg);
+}
+i.fa-edit:hover{
+    color: blue;
+    transform: rotate(-360deg);
+}

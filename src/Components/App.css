@@ -1,0 +1,19 @@
+/*The CSS for App, Signin & Signup*/
+.App {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    padding: 2rem;
+    left: 50%;
+    top: 10%;
+    transform: translate(-55%, 20%);
+    /* border-radius: 0.5rem; */
+    text-align: center;
+}
+
+/*Specific problem for modal of bootstrap which is solved by Editional this css*/
+.modal-backdrop.fade.show {
+    z-index: -1;
+}
+.modal{
+    position: sticky;
+}
